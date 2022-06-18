@@ -1,0 +1,340 @@
+body{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: 'Nunito', sans-serif;
+}
+
+.container-fluid{
+    padding: 10px 40px;
+    max-height: 108px;
+}
+
+.navbar-nav-abt{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.nav-link:hover{
+    color: #03A9F4 ;
+    transition: all 0.5s ease;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    color: #0E0B2B;
+}
+
+
+/* About us */
+
+#about-sections{
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+#about-us{
+   background: #03A9F41A;
+   height: 632px;
+}
+
+.about-left-1 img{
+    width: 612px;
+    margin-left: -50px;
+    margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.about-left-1 p{
+    margin-left: -50px;
+   margin-top: -25px;
+}
+
+.abt-img{
+    margin-left: 40px;
+    margin-top: 100px;
+    width: 120%;
+}
+
+
+.about-left-1{
+    margin-top: 30%;
+}
+
+.container{
+    margin-top: 15px;
+   
+}
+
+/* Who we are */
+
+#who-we-are{
+    margin-top: 80px;
+}
+
+.who-img{
+    margin-left: -50px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.img-who{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+/* Core values */
+
+.core-value{
+    margin-top: 80px;
+}
+.core-val p{
+    width: 696px;
+    margin-left: -50px;
+}
+
+.core-img{
+    margin-left: -50px;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+.our-team{
+    margin-bottom: 35px;
+
+}
+
+.col-3{
+    border: #03A9F41A 1px solid;
+    box-shadow: 2px 3px 10px 1px #03A9F426;
+    opacity: 100%;
+    width: 205.09px;
+    height: 232px;
+    margin-top: 25px;
+}
+
+.col-3 img{
+    margin: 30px 60px;
+    
+}
+
+.col-3 h6{
+    color: #03A9F4;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.col-3 p{
+    text-align: center;
+}
+
+
+.col-3:nth-child(1){
+    align-self: center;
+}
+
+.col-3:nth-child(2){
+    align-self: flex-start;
+}
+
+.col-3:nth-child(3){
+    align-self: flex-end;
+}
+
+.col-3:nth-child(4){
+    align-self: center;
+}
+
+
+/* Vision */
+
+#vision{
+    margin-top: 14em;
+}
+.col-md-5 p{
+    margin-left: -50px;
+    padding: 35px 0;
+}
+
+.col-md-7 img{
+    margin-left: 330px;
+}
+
+/* Approch */
+
+#approch{
+  margin-top: 100px;
+}
+
+.col-md-6 p{
+    width: 508px;
+    margin-left: -50px;
+    padding: 45px 0;
+}
+
+.img-approch{
+    padding: 45px 0;
+    margin-top: 90px;
+    margin-left: 238px;
+}
+
+/* Approch */
+
+#proccess{
+    margin-top: 120px;
+    height: 477px;
+    background: #03A9F41A;
+}
+
+.proccess-img{
+    width: 349px;
+    height: 306px;
+    margin-left: 250px;
+    margin-top: 4em;
+    margin-top: 90px;
+    
+}
+.col-md-6 p{
+    width: 508px;
+}
+
+/* Our Team */
+
+#our-team{
+    margin-top: 100px;
+    
+
+}
+
+#team-lead-1{
+    margin-bottom: 80px;
+    
+}
+
+.team-lead{
+    margin-top: 100px;
+    margin-left: 45%;
+    margin-bottom: 10%;
+
+    
+}
+
+.team-head{
+    display: flex;
+    gap: 4em;
+    align-items: center;
+    align-content: center;
+    margin-left: 15%;
+    margin-bottom: 12em;
+    
+}
+.team-head img{
+    border-radius: 50%;
+}
+
+.team-head h6{
+    padding-top: 25px;
+    text-align: center;
+    width: 138px;
+    color: #0E0B2B;
+    font-weight: bold;
+    font-family: 'quisans',sans-serif;
+    font-size: 16px;
+}
+
+.team-head p{
+    text-align: center;
+    color: #0E0B2B;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-style: regular;
+ }
+
+.social-team{
+    display: flex;
+    gap: 0.5em;
+    text-align: center;
+}
+
+.col-md-4{
+    width: 225px;
+    height: 299px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 1px #03A9F426;
+}
+
+
+/* Footer section */
+
+#footer{
+    background-color: #03A9F4;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.footer-text{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+    width: 317px;
+    font-family: 'nunito',sans-serif;
+    height: 90px;
+}
+
+.icon-links img{
+    padding-right: 16px;
+}
+
+.icon-links{
+   line-height: 2em; 
+}
+
+span{
+   
+ font-size: 14px;
+}
+
+.icon-links span{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    width: 264px;
+}
+
+.copy-right p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 180px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
